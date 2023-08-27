@@ -1,4 +1,6 @@
-import { useMotionValue } from "framer-motion";
+import { useMotionValue, motion, useMotionTemplate } from "framer-motion";
+import AnimatedText from "../components/AnimatedText";
+
 const Gardient = () => {
   let mouseX = useMotionValue(0);
   let mouseY = useMotionValue(0);

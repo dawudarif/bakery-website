@@ -56,7 +56,7 @@ const WhyUs = () => {
             ))}
           </div>
           <div className="w-[40vw] text-white">
-            Contact Us
+            <h4 className="mb-5 font-sans text-3xl font-bold">Contact Us</h4>
             <div>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
               debitis quis assumenda a dolor molestias tempore quam ducimus

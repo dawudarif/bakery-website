@@ -1,3 +1,5 @@
+import { motion } from "framer-motion";
+
 const MovingText = () => {
   return (
     <div className="relative h-[10rem] w-full overflow-hidden bg-white pt-10 text-7xl  font-extrabold uppercase text-black">
