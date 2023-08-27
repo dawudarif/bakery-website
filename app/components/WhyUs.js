@@ -20,7 +20,7 @@ const WhyUs = () => {
           Why Us
           <div className="m-1 h-1 w-full bg-red-500"></div>
         </div>
-        <div className="flex flex-wrap items-center justify-center sm:md:gap-2 lg:flex-nowrap lg:gap-10">
+        <div className="flex flex-wrap items-center justify-center gap-4 lg:flex-nowrap lg:gap-10">
           <div className="w-full min-w-[40vw] bg-stone-300 font-semibold">
             {[
               "Experienced Staff",
@@ -56,7 +56,6 @@ const WhyUs = () => {
               </>
             ))}
           </div>
-          {/* 2 */}
           <div className="w-full min-w-[40vw] text-white">
             <h4 className="mb-5 font-sans text-3xl font-bold">Contact Us</h4>
             <div>

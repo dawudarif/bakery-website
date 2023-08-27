@@ -21,7 +21,7 @@ const AnimatedText = () => {
   };
   return (
     <motion.div
-      className="text-gradient-to-r h-max break-keep from-indigo-500 to-[#FF0088] font-sans text-4xl font-extrabold lg:md:text-7xl"
+      className="text-gradient-to-r h-max whitespace-nowrap from-indigo-500 to-[#FF0088] font-sans text-4xl font-extrabold lg:md:text-7xl"
       initial="hidden"
       animate="visible"
       variants={container}

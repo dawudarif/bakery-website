@@ -1,6 +1,6 @@
 "use client";
 
-import Gardient from "./components/Gardient";
+import Gradient from "./components/Gradient";
 import Chefs from "./components/Chefs";
 import Featured from "./components/Featured";
 import Testimonials from "./components/Testimonials";
@@ -10,8 +10,7 @@ import MovingText from "./components/MovingText";
 export default function Home() {
   return (
     <>
-      <Gardient />
-
+      <Gradient />
       <section>
         <Featured />
         <Chefs />

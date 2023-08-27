@@ -1,7 +1,7 @@
 import { useMotionValue, motion, useMotionTemplate } from "framer-motion";
-import AnimatedText from "../components/AnimatedText";
+import AnimatedText from "./AnimatedText";
 
-const Gardient = () => {
+const Gradient = () => {
   let mouseX = useMotionValue(0);
   let mouseY = useMotionValue(0);
 
@@ -23,7 +23,7 @@ const Gardient = () => {
         }}
       ></motion.div>
       <div className="mt-[10rem] flex flex-wrap items-center justify-center gap-6">
-        <AnimatedText className="break-normal" />
+        <AnimatedText />
         <img
           src="https://images.unsplash.com/photo-1519915051686-9fe6ee13633e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80"
           alt="img"
@@ -34,4 +34,4 @@ const Gardient = () => {
   );
 };
 
-export default Gardient;
+export default Gradient;
