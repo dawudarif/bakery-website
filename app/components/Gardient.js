@@ -1,6 +1,14 @@
-import React from "react";
-
+import { useMotionValue } from "framer-motion";
 const Gardient = () => {
+  let mouseX = useMotionValue(0);
+  let mouseY = useMotionValue(0);
+
+  const handleMouseMove = ({ clientX, clientY, currentTarget }) => {
+    let { left, top } = currentTarget?.getBoundingClientRect();
+
+    mouseX.set(clientX - left);
+    mouseY.set(clientY - top);
+  };
   return (
     <div
       onMouseMove={handleMouseMove}
