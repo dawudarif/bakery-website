@@ -47,6 +47,7 @@ const WhyUs = () => {
                       stiffness: 50,
                       damping: 10,
                     }}
+                    className="h-max w-max"
                   >
                     {item}
                   </motion.p>
@@ -60,8 +61,13 @@ const WhyUs = () => {
             <div>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
               debitis quis assumenda a dolor molestias tempore quam ducimus
-              libero possimus modi provident voluptatem quidem soluta
-              voluptates, mollitia quasi itaque facere!
+              libero possimus modi provident voluptatem quidem soluta debitis
+              quis assumenda a dolor molestias tempore quam ducimus libero
+              possimus modi provident voluptatem quidem soluta libero possimus
+              modi provident voluptatem quidem soluta debitis quis assumenda a
+              dolor molestias tempore quam ducimus libero possimus modi
+              provident voluptatem quidem soluta voluptates, mollitia quasi
+              itaque facere!
             </div>
           </div>
         </div>

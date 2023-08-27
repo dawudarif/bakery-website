@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { imagesArray } from "../Data/ImagesArray";
+import { imagesArray } from "./Data/ImagesArray";
 
 const Featured = () => {
   return (

@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 const MovingText = () => {
   return (
-    <div className="relative h-max w-full overflow-hidden bg-white pt-10 text-7xl font-extrabold uppercase text-black md:sm:text-5xl">
+    <div className="relative h-[8rem] w-full overflow-hidden bg-white pt-10 text-7xl font-extrabold uppercase text-black md:sm:text-5xl">
       <motion.span
         initial={{ x: "105%" }}
         animate={{ x: "-105%" }}
