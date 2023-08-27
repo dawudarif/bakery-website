@@ -24,7 +24,7 @@ const Chefs = () => {
           <img
             src="https://images.unsplash.com/photo-1577219492769-b63a779fac28?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=398&q=100"
             alt="chefs"
-            className="h-[40rem] w-[35rem] rounded-md transition-all duration-300 hover:scale-95"
+            className="h-[40rem] w-[35rem] rounded-md transition-all duration-300 hover:scale-95 md:sm:h-[35rem]"
           />
           <motion.p
             initial={{
