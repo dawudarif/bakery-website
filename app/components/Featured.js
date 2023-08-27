@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { imagesArray } from "./Data/ImagesArray";
+import { imagesArray } from "../Data/ImagesArray";
 
 const Featured = () => {
   return (
@@ -37,7 +37,7 @@ const Featured = () => {
               src={image.url}
               className="h-[30rem] w-[30rem] rounded-md bg-cover"
             />
-            <h4 className="absolute bottom-0 left-0 right-0 top-0 m-2 rounded bg-black bg-opacity-70 text-black opacity-0 transition-opacity duration-300 ease-in-out">
+            <h4 className="absolute bottom-0 left-0 right-0 top-0 m-auto rounded bg-black bg-opacity-70 text-black opacity-0 transition-opacity duration-300 ease-in-out">
               <p className="mt-20 bg-white md:sm:text-xl lg:text-3xl ">
                 {image.name}
               </p>
