@@ -21,10 +21,9 @@ const AnimatedText = () => {
   };
   return (
     <motion.div
-      className=" md:sm:font-4xl text-gradient-to-r h-max from-indigo-500 to-[#FF0088] font-sans text-7xl font-extrabold"
+      className="text-gradient-to-r h-max break-keep from-indigo-500 to-[#FF0088] font-sans text-7xl font-extrabold md:sm:text-4xl"
       initial="hidden"
       animate="visible"
-      // animate={replay ? 'visible' : 'hidden'}
       variants={container}
     >
       <div>

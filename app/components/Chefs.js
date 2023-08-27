@@ -43,7 +43,7 @@ const Chefs = () => {
               stiffness: 50,
               damping: 10,
             }}
-            className="overflow-auto p-10 text-white md:sm:w-full lg:w-[50vw]"
+            className="overflow-auto p-10 text-white md:sm:p-4 md:sm:w-full lg:w-[50vw]"
           >
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi
             molestias reiciendis reprehenderit. Esse deserunt at voluptates
