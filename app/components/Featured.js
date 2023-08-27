@@ -11,7 +11,7 @@ const Featured = () => {
       </div>
 
       <div
-        className="grid h-[80%] w-[80%] grid-cols-3 gap-3 text-center 
+        className="grid h-max w-[80%] grid-cols-2 gap-3 text-center lg:grid-cols-3 
           "
       >
         {imagesArray.map((image) => (
@@ -35,7 +35,7 @@ const Featured = () => {
             <img
               alt={image.name}
               src={image.url}
-              className="h-[30rem] w-[30rem] rounded-md bg-cover md:sm:h-[15rem] md:sm:w-[15rem]"
+              className="rounded-md bg-cover md:sm:h-[30rem] md:sm:w-[30rem] lg:h-[30rem] lg:w-[30rem]"
             />
             <h4 className="absolute bottom-0 left-0 right-0 top-0 m-auto rounded bg-black bg-opacity-70 text-black opacity-0 transition-opacity duration-300 ease-in-out">
               <p className="mt-20 bg-white md:sm:text-xl lg:text-3xl ">

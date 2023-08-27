@@ -20,11 +20,11 @@ const Chefs = () => {
           <div className="m-[2px] ml-5 h-[2px] w-20 bg-red-800"></div>
           <div className="ml-12 h-[2px] w-20 bg-red-800"></div>
         </div>
-        <div className="flex flex-wrap items-center justify-center p-5 lg:flex-nowrap">
+        <div className="flex flex-wrap items-center justify-center gap-6 p-5 lg:flex-nowrap lg:gap-0">
           <img
             src="https://images.unsplash.com/photo-1577219492769-b63a779fac28?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=398&q=100"
             alt="chefs"
-            className="h-[40rem] w-[35rem] rounded-md transition-all duration-300 hover:scale-95 md:sm:h-[35rem]"
+            className="rounded-md transition-all duration-300 hover:scale-95 sm:md:w-[30rem] sm:md:h-[30rem] lg:h-[40rem] lg:w-[35rem]"
           />
           <motion.p
             initial={{
@@ -43,7 +43,7 @@ const Chefs = () => {
               stiffness: 50,
               damping: 10,
             }}
-            className="overflow-auto p-10 text-white md:sm:p-4 md:sm:w-full lg:w-[50vw]"
+            className="overflow-auto text-white sm:p-2 md:sm:w-full md:p-5 lg:w-[50vw] lg:p-10"
           >
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi
             molestias reiciendis reprehenderit. Esse deserunt at voluptates

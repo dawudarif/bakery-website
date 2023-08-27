@@ -46,23 +46,21 @@ const TestimonialsCarousel = ({ testimonials, getStars }) => {
             slidesPerView: 2,
           },
           500: {
-            slidesPerView: 3,
+            slidesPerView: 1,
           },
         }}
-        className="swiper-container max-w-[90%]"
+        className="swiper-container w-full"
       >
         {testimonials.map((testimonial, index) => (
           <SwiperSlide
             key={index}
-            className="swiper-slide flex w-[4rem] flex-col items-start justify-center bg-white sm:p-10 md:sm:h-max lg:md:p-20 lg:h-[10rem]"
+            className="swiper-slide pb-15 flex flex-col items-start justify-center bg-white p-10 md:sm:h-max md:sm:w-[6rem] md:p-20 lg:h-[10rem] lg:w-[4rem] lg:p-20"
           >
-            <div className="mb-5">
-              <PiQuotesFill className="text-6xl md:sm:text-2xl" />
-              <div>{testimonial.text}</div>
-              <div className="font-semibold italic">- {testimonial.author}</div>
-              <div className="text-yellow-500">
-                {getStars(testimonial.rating)}
-              </div>
+            <PiQuotesFill className="text-5xl" />
+            <div>{testimonial.text}</div>
+            <div className="font-semibold italic">- {testimonial.author}</div>
+            <div className="text-yellow-500">
+              {getStars(testimonial.rating)}
             </div>
           </SwiperSlide>
         ))}

@@ -11,7 +11,7 @@ const Testimonials = () => {
   };
 
   return (
-    <div className="flex h-[40rem] w-[100%] flex-col items-center justify-center bg-green-600 p-10">
+    <div className="flex h-max min-h-[40rem] w-[100%] flex-col items-center justify-center bg-green-600 p-10">
       <div className="mb-20 flex items-center justify-center">
         <div className="mb-10 text-3xl font-bold">
           TESTIMONIALS

@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const WhyUs = () => {
   return (
-    <div className="relative h-[50rem] w-[100%]">
+    <div className="relative h-max min-h-[50rem] w-full">
       <div
         className="absolute inset-0"
         style={{
@@ -15,13 +15,13 @@ const WhyUs = () => {
           zIndex: -1,
         }}
       />
-      <div className="flex h-max min-h-[50rem] w-[100%] flex-col items-center justify-center bg-black bg-opacity-70 p-20 md:sm:flex-row md:sm:flex-wrap">
+      <div className="flex h-max min-h-[50rem] w-full flex-col items-center justify-center bg-black bg-opacity-70 p-5 lg:p-20">
         <div className="mb-32 text-4xl text-white">
           Why Us
           <div className="m-1 h-1 w-full bg-red-500"></div>
         </div>
-        <div className="flex items-center justify-center gap-10">
-          <div className="w-[40vw] bg-stone-300">
+        <div className="flex flex-wrap items-center justify-center sm:md:gap-2 lg:flex-nowrap lg:gap-10">
+          <div className="w-full min-w-[40vw] bg-stone-300 font-semibold">
             {[
               "Experienced Staff",
               "24/7 Support",
@@ -29,7 +29,7 @@ const WhyUs = () => {
               "Home Delivery",
             ].map((item) => (
               <>
-                <div className="semibold-bold h-16 w-[100%] bg-white pl-4 pt-5 font-sans text-xl text-black hover:bg-slate-200">
+                <div className="semibold-bold h-20 bg-white pl-4 pt-5 font-sans text-xl text-black hover:bg-slate-200 ">
                   <motion.p
                     initial={{
                       x: -20,
@@ -41,7 +41,7 @@ const WhyUs = () => {
                     }}
                     viewport={{ once: true }}
                     transition={{
-                      delay: 1,
+                      delay: 0.5,
                       duration: 2.5,
                       type: "spring",
                       stiffness: 50,
@@ -56,7 +56,8 @@ const WhyUs = () => {
               </>
             ))}
           </div>
-          <div className="w-[40vw] text-white">
+          {/* 2 */}
+          <div className="w-full min-w-[40vw] text-white">
             <h4 className="mb-5 font-sans text-3xl font-bold">Contact Us</h4>
             <div>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
