@@ -27,8 +27,8 @@ const WhyUs = () => {
               "24/7 Support",
               "Quality Always",
               "Home Delivery",
-            ].map((item) => (
-              <>
+            ].map((item,i) => (
+              <div key={i}>
                 <div className="semibold-bold h-20 bg-white pl-4 pt-5 font-sans text-xl text-black hover:bg-slate-200 ">
                   <motion.p
                     initial={{
@@ -53,7 +53,7 @@ const WhyUs = () => {
                   </motion.p>
                 </div>
                 <hr />
-              </>
+              </div>
             ))}
           </div>
           <div className="w-full min-w-[40vw] text-white">
